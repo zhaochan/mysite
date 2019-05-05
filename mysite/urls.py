@@ -22,4 +22,5 @@ urlpatterns = [
     path('',views.Index),
     path('welcome',views.welcome),
     path(r'json/',views.getJson),
+    path('getGrades',views.getGrades),
 ]
