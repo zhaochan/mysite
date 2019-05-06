@@ -23,10 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%g(dpntfy!6k^ji1+yl%sof4i4u2a2m4f6u!@ri16uayrcy*yg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
-
+#static静态文件转移目录一致
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 # Application definition
 
